@@ -10,12 +10,12 @@ node
  {
  git branch: 'development', credentialsId: '0d1b9b9a-d295-4f8e-9cfa-34922a21bb93', url: 'https://github.com/mnp-projects/maven-web-application.git'
  }
- /*
+ 
  stage ('Build')
  {
  sh "${mavenHome}/bin/mvn clean package"
  }
- 
+ /*
  stage ('ExecuteSonarQubeReport')
  {
  sh "${mavenHome}/bin/mvn sonar:sonar"
